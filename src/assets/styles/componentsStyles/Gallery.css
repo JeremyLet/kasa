@@ -1,0 +1,31 @@
+/* GALLERY COMPONENT STYLE FOR DESKTOP */
+
+.Gallery {
+	border-radius: 25px;
+	background-color: #f6f6f6;
+	margin-top: 43px;
+	padding: 25px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+/* GALLERY COMPONENT STYLE FOR TABLET */
+
+@media all and (max-width: 992px) {
+	.Gallery {
+		margin-top: 15px;
+		padding: 10px;
+	}
+}
+
+/* GALLERY COMPONENT STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+	.Gallery {
+		background-color: #fff;
+	}
+}

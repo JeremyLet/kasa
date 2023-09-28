@@ -1,0 +1,72 @@
+/* 404 PAGE STYLE FOR DESKTOP */
+
+.BlocError404 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.BlocError404--Title {
+	font-size: 288px;
+	color: #ff6060;
+	font-weight: 700;
+	height: fit-content;
+	margin: 0;
+	margin-bottom: 66px;
+}
+
+.BlocError404--Details {
+	font-size: 36px;
+	color: #ff6060;
+	font-weight: 500;
+	height: fit-content;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 182px;
+}
+
+.BlocError404--returnLanding {
+	font-size: 18px;
+	color: #ff6060;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+/* 404 PAGE STYLE FOR TABLET */
+
+@media all and (max-width: 992px) {
+	.BlocError404--Title {
+		font-size: 144px;
+	}
+
+	.BlocError404--Details {
+		font-size: 18px;
+	}
+
+	.BlocError404--returnLanding {
+		font-size: 10px;
+	}
+}
+
+/* 404 PAGE STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+	.BlocError404--Title {
+		height: 99px;
+		font-size: 96px;
+		margin-top: 178px;
+		margin-bottom: 11px;
+	}
+
+	.BlocError404--Details {
+		font-size: 18px;
+		height: 52px;
+		margin-bottom: 133px;
+	}
+
+	.BlocError404--returnLanding {
+		font-size: 14px;
+		margin-bottom: 210px;
+	}
+}

@@ -1,0 +1,51 @@
+/* THUMB COMPONENT STYLE FOR DESKTOP */
+
+.ThumbBloc__link {
+	text-decoration: none;
+	width: 340px;
+	height: 340px;
+	margin: 25px;
+}
+
+.ThumbBloc {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	background-size: cover;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.ThumbBloc__title {
+	font-size: 18px;
+	color: #fff;
+	height: 52px;
+	display: flex;
+	align-items: flex-start;
+	margin: 0px 20px 20px 20px;
+}
+
+/* THUMB COMPONENT STYLE FOR TABLET */
+
+@media all and (max-width: 992px) {
+	.ThumbBloc__link {
+		width: 450px;
+		height: 255px;
+		margin: 7px;
+	}
+}
+
+/* THUMB COMPONENT STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+	.ThumbBloc__link {
+		width: 100%;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.ThumbBloc__title {
+		margin: 0px 19.71px 15px 19.71px;
+		bottom: 68px;
+	}
+}

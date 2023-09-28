@@ -1,0 +1,109 @@
+/* HEADER STYLE FOR DESKTOP */
+
+.HomeStyle {
+    font-size: 24px;
+    color: #ff6060;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 57px;
+}
+
+.HeaderBloc {
+    margin: 40px 100px 60px 100px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderBloc__Nav {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.HeaderBloc__Nav--List {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.HomeNavbar,
+.AboutNavbar,
+.defaultNavbar {
+    font-size: 24px;
+    color: #ff6060;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 57px;
+}
+
+.HomeNavbar:first-of-type {
+    text-decoration: underline;
+}
+
+.AboutNavbar:last-of-type {
+    text-decoration: underline;
+}
+
+.HomeNavbar:active,
+.AboutNavbar:active {
+    text-decoration: underline;
+}
+
+.LOGO {
+    width: 210.32px;
+}
+
+/* HEADER STYLE FOR TABLET */
+
+@media all and (max-width: 992px) {
+    .HeaderBloc {
+        margin: 20px;
+    }
+
+    .LOGO {
+        width: 145px;
+        height: 47px;
+    }
+
+    .HeaderBloc__Nav--Links {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .HeaderBloc__Nav--List {
+        justify-content: flex-end;
+    }
+}
+
+/* HEADER STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+    .HeaderBloc {
+        height: 47px;
+    }
+
+    .HeaderBloc__Nav {
+        height: 17px;
+        width: 140px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .LOGO {
+        width: 145px;
+        height: 47px;
+    }
+
+    .HeaderBloc__Nav--List {
+        font-size: 12px;
+    }
+
+    .HeaderBloc__Nav--Links {
+        font-size: 12px;
+    }
+}

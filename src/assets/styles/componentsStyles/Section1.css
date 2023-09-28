@@ -1,0 +1,61 @@
+/* SECTION1 COMPONENT STYLE FOR DESKTOP */
+
+.resultSection {
+	height: 223px;
+	border-radius: 25px;
+}
+
+.resultSection__title {
+	font-size: 48px;
+	color: #fff;
+	font-weight: 500;
+	margin: 0;
+	text-align: center;
+	height: 68px;
+	z-index: 1;
+	position: relative;
+	top: 68px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.resultSection__background {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	filter: brightness(70%);
+	border-radius: 25px;
+}
+
+.Home .resultSection__background {
+	position: relative;
+	bottom: 68px;
+}
+
+/* SECTION1 COMPONENT STYLE FOR TABLET */
+
+@media all and (max-width: 992px) {
+	.resultSection__title {
+		font-size: 35px;
+	}
+}
+
+/* SECTION1 COMPONENT STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+	.resultSection {
+		margin-bottom: 0px;
+		border-radius: 10px;
+	}
+
+	.resultSection__title {
+		width: 217px;
+		height: 48px;
+		font-size: 24px;
+		text-align: left;
+		margin-left: 16px;
+		top: 8px;
+	}
+}

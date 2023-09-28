@@ -1,0 +1,38 @@
+/* TAGS COMPONENT STYLE FOR DESKTOP */
+
+.Tags {
+	font-size: clamp(0.625rem, 2vw + 1rem, 1.125rem);
+	color: #fff;
+	white-space: nowrap;
+	background-color: #ff6060;
+	min-width: 107px;
+	width: fit-content;
+	height: 25px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+	padding: 0px 4px;
+}
+
+/* TAGS COMPONENT STYLE FOR TABLET */
+
+@media all and (max-width: 992px) {
+	.Tags {
+		margin: 10px;
+	}
+}
+
+/* TAGS COMPONENT STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+	.Tags {
+		min-width: 84px;
+		height: 18px;
+		font-size: 10px;
+		flex-wrap: wrap;
+		margin: 0px;
+		margin-right: 10px;
+	}
+}

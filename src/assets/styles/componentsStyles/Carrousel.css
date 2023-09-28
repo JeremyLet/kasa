@@ -1,0 +1,106 @@
+/* CARROUSEL COMPONENT STYLE FOR DESKTOP */
+
+.Carrousel {
+	height: 415px;
+	margin: 0px 100px 30px 100px;
+}
+
+.Carrousel__status {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 500;
+	margin: 0;
+	position: relative;
+	bottom: 47.32px;
+	text-align: center;
+}
+
+.Carrousel__buttons {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	bottom: 300px;
+}
+
+.Carrousel--image {
+	border-radius: 25px;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.Carrousel__buttons--vectorG {
+	width: 96px;
+	height: 119.64px;
+	z-index: 1;
+	padding: 0px;
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+.Carrousel__buttons--icon {
+	margin: 8.4px 23.36px 32.04px 23.36px;
+}
+
+.Carrousel__buttons--vectorD {
+	width: 96px;
+	height: 119.64px;
+	z-index: 1;
+	padding: 0px;
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+/* CARROUSEL COMPONENT STYLE FOR TABLET */
+
+@media all and (max-width: 992px) {
+	.Carrousel {
+		height: 300px;
+		margin: 0px 20px;
+	}
+
+	.Carrousel__buttons {
+		padding: 0px;
+		bottom: 162px;
+	}
+
+	.Carrousel__buttons--vectorG {
+		width: 24px;
+		height: 24px;
+	}
+
+	.Carrousel__buttons--icon {
+		width: 11.67px;
+		height: 19.8px;
+		margin: 2px 6px;
+	}
+
+	.Carrousel__buttons--vectorD {
+		width: 24px;
+		height: 24px;
+	}
+
+	.Carrousel__status {
+		display: none;
+	}
+}
+
+/* CARROUSEL COMPONENT STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+	.Carrousel {
+		height: 255px;
+		margin-bottom: 15px;
+	}
+
+	.Carrousel--image {
+		border-radius: 10px;
+	}
+
+	.Carrousel__buttons {
+		padding: 0px;
+		bottom: 142px;
+	}
+}

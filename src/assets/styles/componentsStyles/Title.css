@@ -1,0 +1,47 @@
+/* TITLE COMPONENT STYLE FOR DESKTOP */
+
+.Title--name {
+	height: 67%;
+	font-size: 36px;
+	color: #ff6060;
+	font-weight: 500;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.Title--location {
+	height: 33%;
+	font-size: 18px;
+	color: #ff6060;
+	font-weight: 500;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+/* TITLE COMPONENT STYLE FOR TABLET */
+
+@media all and (max-width: 992px) {
+	.Title--name {
+		font-size: 24px;
+	}
+
+	.Title--location {
+		font-size: 16px;
+	}
+}
+
+/* TITLE COMPONENT STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+	.Title--name {
+		font-size: 18px;
+		height: 46px;
+	}
+
+	.Title--location {
+		font-size: 14px;
+		height: 22px;
+	}
+}

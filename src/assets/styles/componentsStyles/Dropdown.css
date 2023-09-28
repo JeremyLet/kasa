@@ -1,0 +1,259 @@
+/* DROPDOWN COMPONENT STYLE FOR DESKTOP */
+/* GENERIC */
+
+.accordeon__item {
+	cursor: pointer;
+}
+
+.accordeon__item__title {
+	background: #ff6060;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.accordeon__item__title--vectors {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.accordeon--content {
+	color: #f7f7f7;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordeon--content .show {
+	height: auto;
+	max-height: 9999;
+	transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.accordeon--content-show {
+	background-color: #f7f7f7;
+	color: #ff6060;
+	list-style-type: none;
+}
+
+.vectorDown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.vectorUp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* DROPDOWN COMPONENT STYLE FOR DESKTOP */
+/* DESKTOP => Page Fiche Logement */
+
+.DetailsBlocContainer__Dropdowns {
+	margin: 0px 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.DetailsBlocContainer__Dropdowns .dropdown {
+	width: 47%;
+}
+
+.DetailsBlocContainer__Dropdowns .accordeon__item__title {
+	height: 52px;
+	border-radius: 10px;
+}
+
+.DetailsBlocContainer__Dropdowns .accordeon__item__title--text {
+	font-size: 18px;
+	margin-left: 20px;
+	font-weight: 500;
+}
+
+.DetailsBlocContainer__Dropdowns .accordeon__item__title--vectors {
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.DetailsBlocContainer__Dropdowns .accordeon--content {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.DetailsBlocContainer__Dropdowns .accordeon--content-show {
+	text-align: justify;
+	font-size: 18px;
+	height: 249px;
+	border-radius: 10px;
+	padding: 40px 12px 0px 20px;
+	line-height: 25.67px;
+}
+
+/* DROPDOWN COMPONENT STYLE FOR DESKTOP */
+/* DESKTOP => Page A PROPOS */
+
+.AboutBloc .dropdown {
+	margin: auto;
+	margin-bottom: 29px;
+}
+
+.AboutBloc .accordeon__item__title {
+	height: 47px;
+	border-radius: 5px;
+	padding: 0px 18px 0px 30px;
+}
+
+.AboutBloc .accordeon__item__title--text {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.AboutBloc .accordeon--content {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.AboutBloc .accordeon--content-show {
+	text-align: justify;
+	font-size: 24px;
+	max-height: 233px;
+	border-radius: 5px;
+	padding: 36px 27px 19px 18px;
+}
+
+/* DROPDOWN COMPONENT STYLE FOR TABLET */
+/* TABLET => Page FICHE LOGEMENT */
+
+@media all and (max-width: 992px) {
+	.DetailsBlocContainer__Dropdowns {
+		margin: 0px 20px;
+		flex-wrap: wrap;
+	}
+
+	.DetailsBlocContainer__Dropdowns .dropdown {
+		margin-bottom: 25px;
+		width: 100%;
+	}
+
+	.DetailsBlocContainer__Dropdowns .accordeon__item__title--text {
+		font-size: 15px;
+	}
+
+	.DetailsBlocContainer__Dropdowns .accordeon--content {
+		font-size: 16px;
+	}
+
+	.DetailsBlocContainer__Dropdowns .accordeon--content-show {
+		font-size: 16px;
+		height: 260px;
+		padding: 18px;
+	}
+
+	/* TABLET => Page A PROPOS */
+
+	.AboutBloc .accordeon__item__title--text {
+		font-size: 18px;
+	}
+
+	.AboutBloc .accordeon--content {
+		font-size: 16px;
+	}
+
+	.AboutBloc .accordeon--content-show {
+		font-size: 16px;
+		padding: 18px;
+		max-height: 200px;
+	}
+}
+
+/* DROPDOWN COMPONENT STYLE FOR MOBILE */
+/* MOBILE => Page FICHE LOGEMENT */
+
+@media all and (max-width: 375px) {
+	.DetailsBlocContainer__Dropdowns {
+		flex-direction: column;
+	}
+
+	.DetailsBlocContainer__Dropdowns .dropdown {
+		margin-bottom: 50px;
+	}
+
+	.DetailsBlocContainer__Dropdowns .accordeon__item__title {
+		height: 29.93px;
+		border-radius: 5px;
+	}
+
+	.DetailsBlocContainer__Dropdowns .accordeon__item__title--text {
+		font-size: 13px;
+		margin-left: 11.51px;
+	}
+
+	.DetailsBlocContainer__Dropdowns .accordeon--content {
+		font-size: 12px;
+	}
+
+	.DetailsBlocContainer__Dropdowns .accordeon--content-show {
+		font-size: 12px;
+		line-height: 17.11px;
+		max-height: 143px;
+		padding: 0px 5.77px 6.91px 11.51px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.DetailsBlocContainer__Dropdowns .accordeon__item__title--vectors {
+		width: 18.42px;
+		height: 18.42px;
+		margin-right: 5.77px;
+	}
+
+	/* MOBILE => Page A PROPOS */
+
+	.AboutBloc .dropdown {
+		margin: auto;
+		margin-bottom: 31px;
+	}
+
+	.AboutBloc .accordeon__item__title {
+		height: 30px;
+		border-radius: 5px;
+		padding: 0px;
+	}
+
+	.AboutBloc .accordeon__item__title--text {
+		font-size: 13px;
+		margin-left: 11.51px;
+	}
+
+	.AboutBloc .accordeon--content {
+		font-size: 12px;
+	}
+
+	.AboutBloc .accordeon--content-show {
+		font-size: 12px;
+		line-height: 17.11px;
+		max-height: 143px;
+		padding: 17.31px 5.77px 6.91px 11.51px;
+	}
+
+	.AboutBloc .accordeon__item__title--vectors {
+		margin-right: 5.77px;
+	}
+
+	.vectorDown {
+		width: 8.96px;
+		height: 15.2px;
+	}
+
+	.vectorUp {
+		width: 8.96px;
+		height: 15.2px;
+	}
+}

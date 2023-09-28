@@ -1,0 +1,46 @@
+/* FOOTER COMPONENT STYLE FOR DESKTOP */
+
+.FooterBloc {
+	height: 209px;
+	background-color: #000000;
+	text-align: center;
+	margin-top: 42px;
+}
+
+.FooterBloc_image {
+	margin-top: 66px;
+	margin-bottom: 28.56px;
+	width: 122px;
+	height: 39.44px;
+}
+
+.FooterBloc__details--text {
+	font-size: 24px;
+	color: #ffff;
+	height: 46px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* FOOTER COMPONENT STYLE FOR TABLET */
+
+@media all and (max-width: 992px) {
+	.FooterBloc__details--text {
+		font-size: 20px;
+	}
+}
+
+/* FOOTER COMPONENT STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+	.FooterBloc_image {
+		margin-top: 62px;
+		margin-bottom: 0px;
+	}
+
+	.FooterBloc__details--text {
+		font-size: 12px;
+	}
+}

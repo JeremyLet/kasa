@@ -1,0 +1,18 @@
+/* GENERAL STYLE */
+
+*,
+::before,
+::after {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}

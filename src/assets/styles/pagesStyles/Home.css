@@ -1,0 +1,40 @@
+/* HOMEPAGE STYLE FOR DESKTOP */
+
+.Home {
+	margin: 3px 100px 0px 100px;
+}
+
+.Home .resultSection__background {
+	background-image: url("/src/assets//images/BannerLandingImage.png");
+	background-size: cover;
+}
+
+/* HOMEPAGE STYLE FOR TABLET */
+
+@media all and (max-width: 992px) {
+	.Home {
+		margin: 0px 20px;
+	}
+}
+
+/* HOMEPAGE STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+	.Home .resultSection {
+		height: 111px;
+		position: relative;
+		top: 16px;
+		margin-bottom: 16px;
+	}
+
+	.Home .resultSection__title {
+		display: block;
+	}
+
+	.Home .resultSection__background {
+		background-image: url("/src/assets//images/BannerLandingMobile.png");
+		background-size: cover;
+		height: 100%;
+		bottom: 68px;
+	}
+}

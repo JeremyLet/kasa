@@ -1,0 +1,40 @@
+/* HOST COMPONENT STYLE FOR DESKTOP */
+
+.Host {
+	height: 64px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.Host--name {
+	font-size: 18px;
+	color: #ff6060;
+	font-weight: 500;
+	margin-right: 10px;
+	width: 93px;
+	height: 52px;
+	text-align: right;
+}
+
+.Host--picture {
+	border-radius: 90px;
+	width: 64px;
+	height: 64px;
+}
+
+/* HOST COMPONENT STYLE FOR MOBILE */
+
+@media all and (max-width: 375px) {
+	.Host--name {
+		width: min-content;
+		font-size: 12px;
+		display: flex;
+		align-items: center;
+	}
+
+	.Host--picture {
+		width: 32px;
+		height: 32px;
+	}
+}
