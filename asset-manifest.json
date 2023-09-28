@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kasa/static/css/main.4489d232.css",
+    "main.js": "/kasa/static/js/main.4c7411b3.js",
+    "static/media/BannerAboutImage.png": "/kasa/static/media/BannerAboutImage.6409af8db1576308fb2b.png",
+    "static/media/BannerLandingImage.png": "/kasa/static/media/BannerLandingImage.ac3aa7396c2c7cd05e2e.png",
+    "static/media/BannerAboutImageMobile.png": "/kasa/static/media/BannerAboutImageMobile.ee6d99ddaf5496d8ca7d.png",
+    "static/media/BannerLandingMobile.png": "/kasa/static/media/BannerLandingMobile.da2fb68e98dbf10b912a.png",
+    "static/media/LOGOH.svg": "/kasa/static/media/LOGOH.759702e80d2cca5e6d54b41ca6682c02.svg",
+    "static/media/LOGOF.svg": "/kasa/static/media/LOGOF.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "index.html": "/kasa/index.html",
+    "static/media/VectorUP.svg": "/kasa/static/media/VectorUP.ecf1488896136f153bb1ae871e39b72d.svg",
+    "static/media/VectorDOWN.svg": "/kasa/static/media/VectorDOWN.b052dd29e3a2bab76700eee79e133c37.svg",
+    "static/media/VectorD.svg": "/kasa/static/media/VectorD.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/VectorG.svg": "/kasa/static/media/VectorG.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "main.4489d232.css.map": "/kasa/static/css/main.4489d232.css.map",
+    "main.4c7411b3.js.map": "/kasa/static/js/main.4c7411b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4489d232.css",
+    "static/js/main.4c7411b3.js"
+  ]
+}
